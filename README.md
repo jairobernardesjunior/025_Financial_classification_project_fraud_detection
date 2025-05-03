@@ -23,17 +23,46 @@ Aqui apresentamos uma solução pautada no treinamento de um modelo de classific
 - O objetivo desse trabalho é treinar um modelo de classificação que possa detectar fraudes no pagamento com cartão de crédito buscando fornecer informações, em tempo real, para que a compra não seja realizada caso tenha detectado alta probabilidade de ser fraude.
 
 ### Data Origin:
-- Dataset: https://raw.githubusercontent.com/amankharwal/Website-data/master/payment_fraud.csv
+- Dataset: https://www.kaggle.com/code/elvisacaciobarbosa/detec-o-de-fraude-no-cart-o-de-cr-dito/input
 
-- The dataset used is online shopping transaction data collected from an e-commerce retailer. The dataset contains over 39,000 transactions, each containing 5 features that will describe the nature of the transactions.
+- The dataset used is purchase transaction data collected from a card issuer. The dataset contains over 
+280,000 transactions, each containing 31 features that describe the nature of the transactions.
 
-- O conjunto de dados utilizados são dados de transações de compras online coletados de um varejista de comércio eletrônico. O conjunto de dados contém mais de 39.000 transações, cada uma contendo 5 características que descreverão a natureza das transações.
+- O conjunto de dados utilizados são dados de transações de compras coletados de uma administradora de cartão. O conjunto de dados contém mais de 280.000 transações, cada uma contendo 31 características que descreverão a natureza das transações.
 
-- Aqui está o que as colunas representam:
+- Aqui está o que as colunas representam: (os valores de V1 A V28 não foram revelados pela administradora)
 
-accountAgeDays = idade da conta em dias
-numItems = nro de items da compra
-localTime = hora local
-paymentMethod = cartão utilizado no pagamento
-paymentMethodAgeDays = tempo em dias que a fatura ficou em aberto até o pagamento
-label = indica se houve fraude (1) ou não (0)
+Time = tempo da primeira transação até a atual
+
+V1
+V2
+V3
+V4
+V5
+V6
+V7
+V8
+V9
+V10
+V11
+V12
+V13
+V14
+V15
+V16
+V17
+V18
+V19
+V20
+V21
+V22
+V23
+V24
+V25
+V26
+V27
+V28
+
+Amount = valor da transaçao
+
+Class = indica fraude-1 ou integridade-0
